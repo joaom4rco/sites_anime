@@ -90,9 +90,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 55rem;
+    max-width: 56%;
     height: 100vh;
-    margin: auto;
+    margin-left: 3%;
     position: relative;
 }
 #conteudo-header h2 {
@@ -123,14 +123,16 @@ header {
     border-width: .5rem;
 }
 
-
-
+.conteudo {
+    width: 100vw;
+}
 .blog-listing {
     position: absolute;
     left: 14%;
     transform: translateY(20%);
     margin-top: 5rem;
-    width: 700px;
+    min-width: 81%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -147,7 +149,7 @@ header {
     position: relative;
 }
 .col-6 {
-    flex: 0 0 23%;
+    flex: 0 0 25%;
     position: relative;
 }
 .page-item {
@@ -172,15 +174,12 @@ header {
     transform: translateY(15%);
 } 
 
-
-
-
 .conteudo-nav-bar {
-    min-width: 20rem;
+    min-width: 23%;
     min-height: 40rem;
     float: right;
+    margin-top: 15%;
     margin-right: 15%;
-    margin-top: 8%;
     border: .15rem solid #c8b0b0ca;
     border-radius: 1rem;
 }
@@ -216,7 +215,8 @@ header {
     
 }
 .espaco-lateral {
-    margin: 0 1rem;
+    width: 300px;
+    margin: 0 auto;
 }
 .container-espaco {
     padding-left: 15px;
