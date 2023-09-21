@@ -1,0 +1,105 @@
+.heading {
+    background-color: #070212;
+    position: relative;
+}
+#imagem-logo {
+    position: relative;
+}
+#imagem-logo img {
+    position: absolute;
+    left: 15%;
+    transform: translateY(84%);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 1.5rem 0 0.5rem;
+}
+#navlist {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+#navlist a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    transition: 0.5s;
+}
+#navlist a:hover {
+    color: #43cbf2; 
+    border-bottom: 1px solid #43cbf2
+}
+
+.pesquisar-nav {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    right: 10%;
+}
+.pesquisar-nav ul {
+    list-style-type: none;
+}
+.pesquisar-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-menu-search {
+    display: flex;
+    transform: translateY(-10%);
+}
+.main-menu-search ul {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #fff;
+    list-style-type: none;
+}
+#ion-ios-search {
+    color: #43cbf2;
+    padding: 0.3rem;
+}
+#heading-icons{
+    color: #fff;
+    font-size: 1.2rem;
+    transform: translateY(15%);
+}
+#segundo-menu {
+    background-color: #040c30;
+    border-bottom: 1px solid #101d5a;
+    border-top: 1px solid #101d5a;
+}
+#menu2 {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.menu2 li {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.1rem;
+}
+.menu2 li a {
+    color: #60646c;
+    text-decoration: none;
+}
+.menu2 li a#borda {
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 5px;
+    padding: .3rem .8rem;
+    font-size: .8rem;
+}
+#menu-login {
+    display: block;
+}
+#menu-login {
+    margin-left: 28rem;
+}
+#menu-login li a {
+    color: #60646c;
+    text-decoration: none;
+}

@@ -10,79 +10,6 @@ body {
     height: 100vh;
     width: 100%;
 }
-header {
-    position: relative;
-}
-.heading {
-    background-color: #070212;
-}
-#imagem-logo {
-    margin-left: 15%;
-}
-#imagem-logo img {
-    position: absolute;
-    top: 24%;
-}
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    padding: 2rem 0 0.5rem;
-}
-#navlist {
-    display: flex;
-    gap: 2rem;
-    padding: 2rem 1rem;
-}
-#navlist li {
-    display: inline-block; 
-}
-#navlist a {
-    color: #fff;
-    text-decoration: none;
-}
-#heading-icons{
-    color: #fff;
-    font-size: 1.2rem;
-    transform: translateY(15%);
-}
-#segundo-menu {
-    background-color: #040c30;
-    border-bottom: 1px solid #101d5a;
-    border-top: 1px solid #101d5a;
-}
-#menu2 {
-    display: flex;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-.menu2 li {
-    display: flex;
-    gap: 2rem;
-    font-size: 1.1rem;
-}
-.menu2 li a {
-    color: #60646c;
-    text-decoration: none;
-}
-.menu2 li a#borda {
-    border: 1px solid rgb(255, 255, 255); 
-    border-radius: 5px;
-    padding: .3rem .8rem;
-    font-size: .8rem;
-}
-#menu-login {
-    display: block;
-}
-#menu-login {
-    margin-left: 28rem;
-}
-#menu-login li a {
-    color: #60646c;
-    text-decoration: none;
-}
 #menu-icon {
     display: none;
 }
@@ -94,6 +21,7 @@ header {
     height: 100vh;
     margin-left: 3%;
     position: relative;
+
 }
 #conteudo-header h2 {
     color: #fff;
