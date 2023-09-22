@@ -27,13 +27,40 @@
     text-decoration: none;
     text-transform: uppercase;
     padding-bottom: 7px;
-    transition: 0.5s;
+    transition: 0.5s ease;
+    position: relative;
+    overflow: hidden;
 }
 #navlist a:hover {
-    color: #43cbf2; 
-    border-bottom: 1px solid #43cbf2
+    color: #43cbf2;
+}
+#navlist a:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    border-bottom: 2px solid #43cbf2;
+    animation: animacao-borda 0.5s ease ;
+}
+@keyframes animacao-borda {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+        right: 100%;
+    }
+}
+#navlist a:hover
+.material-symbols-outlined {
+    color: #43cbf2;
 }
 
+.material-symbols-outlined {
+    transition: 0.5s ease;
+}
 .pesquisar-nav {
     display: flex;
     gap: 50px;
